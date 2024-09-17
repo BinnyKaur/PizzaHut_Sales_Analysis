@@ -4,18 +4,22 @@ This project involves analyzing operational data for a PizzaHut Store. The goal 
 ## Dataset 
 In this project my database consist of 4 tables. 
 1) Order_Details
+   
    4 Columns, 48620 Rows
    <img width="1147" alt="Screenshot 2024-09-16 at 11 22 55 AM" src="https://github.com/user-attachments/assets/6c8d459e-b577-4e86-8684-691400a964c7">
 
 2) Orders
+   
    3 Columns, 21350 Rows
    <img width="1146" alt="Screenshot 2024-09-16 at 11 37 45 AM" src="https://github.com/user-attachments/assets/14634944-b3df-4e11-b1e2-cdb2c52c9711">
 
 3) Pizzas
+   
    4 Columns, 97 Rows
    <img width="1144" alt="Screenshot 2024-09-16 at 11 42 16 AM" src="https://github.com/user-attachments/assets/dcd3f861-68c8-4895-b507-6560ccb01029">
 
 4) Pizza_types
+   
    4 Columns, 32 Rows
    <img width="1162" alt="Screenshot 2024-09-16 at 11 44 14 AM" src="https://github.com/user-attachments/assets/5f91566e-bb4a-4d27-8043-baae7ec28036">
 
@@ -102,6 +106,7 @@ SELECT
 FROM
     pizza_types
 GROUP BY category;
+
 <img width="349" alt="Screenshot 2024-09-17 at 10 48 09 AM" src="https://github.com/user-attachments/assets/97331eb2-c239-4f2c-a40d-5a16f5c00334">
 
 -- 9) Group the orders by date and calculate the average number of pizzas ordered per day
