@@ -150,6 +150,8 @@ FROM
     order_details ON order_details.pizza_id = pizzas.pizza_id
 GROUP BY pizza_types.category
 ORDER BY revenue DESC;
+
+
 <img width="434" alt="Screenshot 2024-09-17 at 10 50 30 AM" src="https://github.com/user-attachments/assets/3ee90c43-55c5-4669-b3d3-efdadd784285">
 
 -- 12)Analyse cumulative revenue generated over time. 
